@@ -1,2 +1,0 @@
-Oldest: ahmed 25
-Youngest: ali 16

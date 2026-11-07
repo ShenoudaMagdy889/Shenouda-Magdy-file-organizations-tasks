@@ -9,7 +9,7 @@ int id,grade;
 getline(cin,name);
 cin>>id>>grade;
 fstream file;
-file.open("student.txt",ios::out);
+file.open("T1/student.txt",ios::out|ios::trunc);
 file << name << " " << id << " " << grade << endl;
 file.close();
 return 0;
